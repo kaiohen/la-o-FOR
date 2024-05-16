@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>repetiçãoFOR</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <script src='main.js'></script>
+</head>
+
+<body id="layout">
+    <div id="visual">
+      <form name="selectForm">
+        <h1>Escolha uma ou mais músicas:</h1>
+        <p>
+          <label for="tipoMusica">Escolha alguns tipos de música, em seguida, clique no botão
+            abaixo:</label>
+
+          <select id="tipoMusica" name="tipoMusica" multiple="multiple">
+            <option selected="selected">R&B</option>
+            <option>Jazz</option>
+            <option>Blues</option>
+            <option>New Age</option>
+            <option>Classico</option>
+            <option>Ópera</option>
+            <option>Rap</option>
+            <option>Gospel</option>
+            <option>Funk</option>
+          </select>
+        </p>
+        <p><input id="btn" type="button" value="Quantos foram selecionados?" /></p>
+      </form>
+    </div>
+
+  <!-- Código em javascript da página -->
+<!-- x-----------------------------------------------------------------x -->
+  <script>
+    // Conta quantas musicas estão selecionadas. // 
+    function howMany(selectObject) {
+      var numeroSelecionadas = 0;
+      for (var i = 0; i < selectObject.options.length; i++) {
+        if (selectObject.options[i].selected) {
+          numeroSelecionadas++;
+        }
+      }
+      return numeroSelecionadas;
+    }
+
+    // Mostra o valor da função anterior quando clica na botão. //
+    var btn = document.getElementById("btn");
+    btn.addEventListener("click", function () {
+      alert(
+        "Total de opções selecionadas: " +
+        howMany(document.selectForm.tipoMusica),
+      );
+    });
+  </script>
+<!-- x-----------------------------------------------------------------x
+
+</body>
+
+</html>
