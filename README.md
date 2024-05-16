@@ -11,13 +11,6 @@ function howMany(selectObject) {
       }
       return numeroSelecionadas;
     }
-    var btn = document.getElementById("btn");
-    btn.addEventListener("click", function () {
-      alert(
-        "Total de opções selecionadas: " +
-        howMany(document.selectForm.tipoMusica),
-      );
-    });
 ~~~
  Neste trecho do codigo a declaração *"FOR"* esta sendo utilizada para verificar cada opção selecionada no elemento *"select"* e para cada elemento selecionado ele incrementa na variavel *"i"*.
 
