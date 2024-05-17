@@ -2,16 +2,16 @@
     padding: 0px;
     margin: 0px;
 }
+/* muda o corpo da pagina */
 #layout{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('R.png');
+    background-image: url(img/R.png);
     background-size:100%;
     background-repeat: no-repeat;
-	height: 100vh;
+	height: 100px;
 }
-
 /* cria uma borda em volta dos elementos da pagina. */
 form{ 
     position: absolute;

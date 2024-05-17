@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # retetiçãoFOR
 
 =======
@@ -21,4 +20,4 @@ function howMany(selectObject) {
  
 ## Referências           
 - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration
->>>>>>> 7974738793e3648c06b76dcbfdacf0181232383f
+
