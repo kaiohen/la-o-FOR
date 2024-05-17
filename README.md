@@ -1,9 +1,6 @@
 # retetiçãoFOR
-<<<<<<< HEAD
-=======
 
 # declaraçãoFOR
->>>>>>> refs/remotes/origin/main
 Aprimoramente do codigo <img align="" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">![Static Badge](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaS&logoColor=black), adição <img align="" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> para a estilização da pagina. Projeto feito para aprimorar o conhecimento da declaração *"FOR"*.
 ## declaração FOR
 
@@ -35,7 +32,3 @@ function howMany(selectObject) {
  
 ## Referências           
 - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Loops_and_iteration
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
